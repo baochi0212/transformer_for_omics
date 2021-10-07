@@ -48,7 +48,6 @@ if __name__ == '__main__':
     criterion = nn.MSELoss()
     num_epochs = 10
     train_seq2seq(data_iter, model, criterion, num_epochs, optimizer)
-    # X, Y = iter(data_iter).next()
-    # print(model(X, Y)[0].shape)
+ 
 
 
